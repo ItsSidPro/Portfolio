@@ -1,37 +1,39 @@
 export const portfolioData = {
-  name: 'Siddharth Awasthi',
+  name: 'Siddharth',
   shortName: 'Siddharth',
   title: 'Aspiring Software Developer',
   tagline: 'Building clean, efficient software — one commit at a time.',
   about: {
     intro:
-    'I am a passionate software developer with a strong foundation in object-oriented programming and web technologies. I enjoy building practical applications that solve real problems.',
+    'I am a Computer Science student and aspiring software developer. I am learning C#, Java, web development, and ASP.NET MVC. I enjoy creating practical projects and improving my programming skills.',
+    
     goal:
-    'My goal is to join a forward-thinking engineering team where I can contribute to meaningful products, grow my technical depth, and collaborate with talented developers.',
-    interests: [
-    'Full-stack Web Development',
-    'Object-Oriented Design',
-    'Clean Code & Best Practices',
-    'Open Source Contributions'],
+    'My goal is to start my career as a software developer, work on real-world projects, and continuously improve my technical and problem-solving skills.',
+    interests:[
+    'Web Development',
+    'C# and Java Programming',
+    'ASP.NET MVC',
+    'Building Practical Projects'
+  ],
 
-    profileImage: '/profile.jpg',
+   profileImage: '/assets/images/sidProfile (2).jpeg',
     profileFallback: "https://img.rocket.new/generatedImages/rocket_gen_img_17660a7f7-1784050502571.png"
   },
   contact: {
-    email: 'siddharth.awasthi@email.com',
-    phone: '+91 98765 43210',
-    location: 'India',
-    github: 'https://github.com/siddharthawasthi',
-    linkedin: 'https://linkedin.com/in/siddharthawasthi'
+    email: 'awasthisiddharth21@gamil.com',
+    phone: '+91 7701931556',
+    location: 'Kanpur, Uttar Pradesh, India',
+    github: 'https://github.com/ItsSidPro',
+    linkedin: 'https://www.linkedin.com/in/siddharth1980/'
   },
-  resume: '/resume.pdf',
+  resume: '/assets/Siddharth.pdf',
   skills: [
   { name: 'C#', icon: 'CodeBracketIcon', level: 85, color: '#9B59B6', category: 'Language' },
   { name: 'Java', icon: 'CommandLineIcon', level: 78, color: '#E74C3C', category: 'Language' },
   { name: 'HTML', icon: 'GlobeAltIcon', level: 90, color: '#E67E22', category: 'Web' },
   { name: 'CSS', icon: 'SwatchIcon', level: 85, color: '#3498DB', category: 'Web' },
   { name: 'JavaScript', icon: 'BoltIcon', level: 80, color: '#F1C40F', category: 'Web' },
-  { name: 'React', icon: 'CubeTransparentIcon', level: 75, color: '#00D4FF', category: 'Framework' },
+ 
   { name: 'ASP.NET MVC', icon: 'ServerIcon', level: 70, color: '#5C2D91', category: 'Framework' },
   { name: 'SQL', icon: 'CircleStackIcon', level: 72, color: '#27AE60', category: 'Database' },
   { name: 'Git', icon: 'ArrowPathIcon', level: 80, color: '#F05032', category: 'Tool' },
@@ -45,7 +47,7 @@ export const portfolioData = {
     'A console-based application for managing student records, including enrollment, grade tracking, and report generation. Implements file handling for persistent data storage.',
     image: "https://img.rocket.new/generatedImages/rocket_gen_img_1c57d4149-1767190930951.png",
     technologies: ['C#', 'OOP', 'File Handling', 'Console App'],
-    github: 'https://github.com/siddharthawasthi/student-management',
+    github: 'https://github.com/ArnavOG/StudentManagementSystem',
     demo: null
   },
   {
@@ -72,24 +74,35 @@ export const portfolioData = {
   education: [
   {
     id: 1,
-    degree: 'Bachelor of Computer Applications (BCA)',
-    institution: 'XYZ University',
-    location: 'India',
-    year: '2022 – 2025',
+    degree: 'Diploma in Computer Science & Engineering',
+    institution: 'Government Polytechnic Sikandra, Kanpur Dehat, UP',
+    location: 'Kanpur Dehat, uttar Pradesh, India',
+    year: '2024 - Expected 2027 .Currently pursuing',
     description:
-    'Studied core computer science subjects including Data Structures, Algorithms, Database Management, Software Engineering, and Web Development.',
+    'Currently pursuing my diploma and learning programming, web development, databases, and software development.',
     grade: 'CGPA: 8.2 / 10',
     icon: 'AcademicCapIcon'
   },
   {
     id: 2,
     degree: 'Higher Secondary (12th)',
-    institution: 'ABC Senior Secondary School',
-    location: 'India',
-    year: '2020 – 2022',
+    institution: 'Jugraj Singh Inter College, Gurdahi Khurd, Kanpur Dehat',
+    location: 'Kanpur Dehat, uttar Pradesh, India',
+    year: '2024',
+    description:
+    'Completed my 12th education in Science stream with Mathematics. Developed a strong foundation in Mathematics, Science, and basic computer concepts.',
+    grade: 'Percentage: 79%',
+    icon: 'BookOpenIcon'
+  },
+ {
+    id: 2,
+    degree: 'High School (10th)',
+    institution: 'Jugraj Singh Inter College, Gurdahi Khurd, Kanpur Dehat',
+    location: 'Kanpur Dehat, uttar Pradesh, India',
+    year: '2022',
     description:
     'Science stream with Computer Science as elective subject. Developed foundational programming skills in C++ and Python.',
-    grade: 'Percentage: 82%',
+    grade: 'Percentage: 79%',
     icon: 'BookOpenIcon'
   }]
 
