@@ -16,7 +16,7 @@ export const portfolioData = {
     'Building Practical Projects'
   ],
 
-   profileImage: '/assets/images/sidProfile (2).jpeg',
+   profileImage: '/Portfolio/assets/images/sidProfile (2).jpeg',
     profileFallback: "https://img.rocket.new/generatedImages/rocket_gen_img_17660a7f7-1784050502571.png"
   },
   contact: {
